@@ -1,10 +1,10 @@
-# Г°ВџВ”В’ SECURITY POLICY
+# 🔒 SECURITY POLICY
 
 **Terra Ecosystem Security Reporting**
 
 ---
 
-## Г°ВџВљВЁ REPORTING A VULNERABILITY
+## 🚨 REPORTING A VULNERABILITY
 
 We take security seriously, especially when it affects children's safety.
 
@@ -26,23 +26,23 @@ We take security seriously, especially when it affects children's safety.
 
 ### What NOT to Do
 
-- ГўВќВЊ Do NOT disclose publicly before resolution
-- ГўВќВЊ Do NOT exploit the vulnerability
-- ГўВќВЊ Do NOT access data you shouldn't access
+- ❌ Do NOT disclose publicly before resolution
+- ❌ Do NOT exploit the vulnerability
+- ❌ Do NOT access data you shouldn't access
 
 ---
 
-## Г°ВџВ“ВЉ SECURITY SCOPE
+## 📊 SECURITY SCOPE
 
 ### In Scope
 
 | Component | Priority |
 |-----------|----------|
-| Child data protection | Г°ВџВ”Вґ Critical |
-| Authentication systems | Г°ВџВ”Вґ Critical |
-| API endpoints | Г°ВџВџВ  High |
-| Documentation integrity | Г°ВџВџВЎ Medium |
-| License enforcement | Г°ВџВџВЎ Medium |
+| Child data protection | 🔴 Critical |
+| Authentication systems | 🔴 Critical |
+| API endpoints | 🟠 High |
+| Documentation integrity | 🟡 Medium |
+| License enforcement | 🟡 Medium |
 
 ### Out of Scope
 
@@ -52,7 +52,7 @@ We take security seriously, especially when it affects children's safety.
 
 ---
 
-## Г°ВџВ”В„ RESPONSE PROCESS
+## 🔄 RESPONSE PROCESS
 
 | Stage | Timeline | Description |
 |-------|----------|-------------|
@@ -65,14 +65,14 @@ We take security seriously, especially when it affects children's safety.
 
 | Level | Response Time | Description |
 |-------|---------------|-------------|
-| Г°ВџВ”Вґ Critical | 24 hours | Active exploitation, child safety risk |
-| Г°ВџВџВ  High | 7 days | Potential data exposure, security bypass |
-| Г°ВџВџВЎ Medium | 30 days | Limited impact, requires specific conditions |
-| Г°ВџВџВў Low | 90 days | Minimal impact, informational |
+| 🔴 Critical | 24 hours | Active exploitation, child safety risk |
+| 🟠 High | 7 days | Potential data exposure, security bypass |
+| 🟡 Medium | 30 days | Limited impact, requires specific conditions |
+| 🟢 Low | 90 days | Minimal impact, informational |
 
 ---
 
-## Г°ВџВ›ВЎГЇВёВЏ CHILD SAFETY PRIORITY
+## 🛡️ CHILD SAFETY PRIORITY
 
 Any vulnerability that could affect children's safety receives:
 
@@ -83,7 +83,7 @@ Any vulnerability that could affect children's safety receives:
 
 ---
 
-## Г°ВџВ“Вњ CONFIDENTIALITY
+## 📜 CONFIDENTIALITY
 
 We respect reporter confidentiality:
 
@@ -93,7 +93,7 @@ We respect reporter confidentiality:
 
 ---
 
-## Г°ВџВЊВЌ INTERNATIONAL COOPERATION
+## 🌍 INTERNATIONAL COOPERATION
 
 For cross-border security issues, we cooperate with:
 
@@ -103,7 +103,7 @@ For cross-border security issues, we cooperate with:
 
 ---
 
-## Г°ВџВ“Вћ CONTACTS
+## 📞 CONTACTS
 
 | Role | Contact |
 |------|---------|
@@ -113,4 +113,4 @@ For cross-border security issues, we cooperate with:
 
 ---
 
-*Г‚В© 2025 Abdurashid Abdukarimov. Terra Ecosystem.*
+*© 2025 Abdurashid Abdukarimov. Terra Ecosystem.*

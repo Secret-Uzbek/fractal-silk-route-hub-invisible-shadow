@@ -1,22 +1,22 @@
-# Г°ВџВ¤Вќ CONTRIBUTING TO TERRA ECOSYSTEM
+# 🤝 CONTRIBUTING TO TERRA ECOSYSTEM
 
 **Welcome to the Terra Ecosystem Community**
 
 ---
 
-## Г°ВџВЋВЇ OUR MISSION
+## 🎯 OUR MISSION
 
 Terra Ecosystem builds **ethical educational technologies** that prioritize:
 
-1. **Г°ВџВ‘В¶ Child Safety First** ГўВЂВ” Every contribution must protect children's rights and wellbeing
-2. **Г°ВџВЊВЌ Educational Freedom** ГўВЂВ” Open access to knowledge for all people
-3. **ГўВљВ–ГЇВёВЏ Ethical Technology** ГўВЂВ” AI and code that serves humanity, not exploits it
-4. **Г°ВџВ¤Вќ Community Collaboration** ГўВЂВ” Together we build planetary-scale solutions
-5. **Г°ВџВ”В’ Protective Enforcement** ГўВЂВ” We guard our community from harm
+1. **👶 Child Safety First** — Every contribution must protect children's rights and wellbeing
+2. **🌍 Educational Freedom** — Open access to knowledge for all people
+3. **⚖️ Ethical Technology** — AI and code that serves humanity, not exploits it
+4. **🤝 Community Collaboration** — Together we build planetary-scale solutions
+5. **🔒 Protective Enforcement** — We guard our community from harm
 
 ---
 
-## Г°ВџВљВЂ GETTING STARTED
+## 🚀 GETTING STARTED
 
 ### 1. Read the License
 
@@ -39,17 +39,17 @@ git checkout -b feature/your-contribution-name
 
 ```
 .terra-legal/
-ГўВ”ВњГўВ”ВЂГўВ”ВЂ LICENSE.md                 # Terra Public License v1.0
-ГўВ”ВњГўВ”ВЂГўВ”ВЂ CONTRIBUTING.md            # How to contribute
-ГўВ”ВњГўВ”ВЂГўВ”ВЂ SECURITY.md                # How to report vulnerabilities
-ГўВ”ВњГўВ”ВЂГўВ”ВЂ CODE_OF_CONDUCT.md         # Community ethics and behavior
-ГўВ”ВњГўВ”ВЂГўВ”ВЂ DOCUMENTATION-STANDARD.md  # How to write documentation
-ГўВ”В”ГўВ”ВЂГўВ”ВЂ LINKING-INSTRUCTIONS.md    # How to connect your repo to this layer
+├── LICENSE.md                 # Terra Public License v1.0
+├── CONTRIBUTING.md            # How to contribute
+├── SECURITY.md                # How to report vulnerabilities
+├── CODE_OF_CONDUCT.md         # Community ethics and behavior
+├── DOCUMENTATION-STANDARD.md  # How to write documentation
+└── LINKING-INSTRUCTIONS.md    # How to connect your repo to this layer
 ```
 
 ---
 
-## Г°ВџВ“Вњ CODE OF CONDUCT
+## 📜 CODE OF CONDUCT
 
 Please read our **[Code of Conduct](./CODE_OF_CONDUCT.md)** before participating.
 
@@ -61,17 +61,17 @@ Key principles:
 
 ---
 
-## Г°ВџВ”В§ HOW TO CONTRIBUTE
+## 🔧 HOW TO CONTRIBUTE
 
 ### Types of Contributions
 
 | Type | Description | Example |
 |------|-------------|---------|
-| Г°ВџВ“Вќ Documentation | Improve clarity, fix typos, add translations | Fix grammar in LICENSE.md |
-| Г°ВџВђВ› Bug Reports | Report issues with license text or structure | "Section 3.2 is unclear" |
-| Г°ВџВ’ВЎ Feature Requests | Suggest new sections or improvements | "Add AI-specific clause" |
-| ГўВљВ–ГЇВёВЏ Legal Review | Help validate compliance with local laws | "GDPR Article 8 needs update" |
-| Г°ВџВЊВЌ Localization | Translate documents to your language | Russian, Uzbek, Spanish versions |
+| 📝 Documentation | Improve clarity, fix typos, add translations | Fix grammar in LICENSE.md |
+| 🐛 Bug Reports | Report issues with license text or structure | "Section 3.2 is unclear" |
+| 💡 Feature Requests | Suggest new sections or improvements | "Add AI-specific clause" |
+| ⚖️ Legal Review | Help validate compliance with local laws | "GDPR Article 8 needs update" |
+| 🌍 Localization | Translate documents to your language | Russian, Uzbek, Spanish versions |
 
 ### Making Changes
 
@@ -83,7 +83,7 @@ Key principles:
 
 ---
 
-## Г°ВџВ“ВҐ PULL REQUEST GUIDELINES
+## 📥 PULL REQUEST GUIDELINES
 
 ### Before Submitting
 
@@ -117,14 +117,14 @@ Key principles:
 
 ### Review Process
 
-1. **Automated Checks** ГўВЂВ” Format and structure validation
-2. **Community Review** ГўВЂВ” 48 hours for community feedback
-3. **Legal Review** ГўВЂВ” Required for license changes
-4. **Merge** ГўВЂВ” By maintainers after approval
+1. **Automated Checks** — Format and structure validation
+2. **Community Review** — 48 hours for community feedback
+3. **Legal Review** — Required for license changes
+4. **Merge** — By maintainers after approval
 
 ---
 
-## Г°ВџВ›ВЎГЇВёВЏ SECURITY
+## 🛡️ SECURITY
 
 To report security vulnerabilities, see **[SECURITY.md](./SECURITY.md)**.
 
@@ -132,7 +132,7 @@ To report security vulnerabilities, see **[SECURITY.md](./SECURITY.md)**.
 
 ---
 
-## Г°ВџВ“Вћ QUESTIONS?
+## 📞 QUESTIONS?
 
 | Topic | Contact |
 |-------|---------|
@@ -143,14 +143,14 @@ To report security vulnerabilities, see **[SECURITY.md](./SECURITY.md)**.
 
 ---
 
-## Г°ВџВЊВџ THANK YOU
+## 🌟 THANK YOU
 
 Thank you for contributing to Terra Ecosystem!
 
 Your work helps protect children and build ethical technology for the future.
 
-**Together we build a better world.** Г°ВџВЊВЌГўВњВЁ
+**Together we build a better world.** 🌍✨
 
 ---
 
-*Г‚В© 2025 Abdurashid Abdukarimov. Terra Ecosystem.*
+*© 2025 Abdurashid Abdukarimov. Terra Ecosystem.*
