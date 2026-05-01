@@ -1,20 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use or quote this philosophy-and-practice branch, please cite it as below."
 type: software
-title: ".terra-legal"
+title: "fractal-silk-route-hub-invisible-shadow"
 authors:
   - family-names: Abdukarimov
     given-names: Abdurashid
     orcid: "https://orcid.org/0009-0000-6394-4912"
     affiliation: "Fractal Metascience Foundation, Tashkent"
-repository-code: "https://github.com/Secret-Uzbek/.terra-legal"
-abstract: "Terra Public License, Code of Conduct and governance rules."
+repository-code: "https://github.com/Secret-Uzbek/fractal-silk-route-hub-invisible-shadow"
+abstract: "Human-facing Invisible Shadow branch for logistics crisis detection, weak-signal interpretation, and Silk Route risk mapping."
 keywords:
   - fractal-metascience
-  - fmp
-  - uzbekistan
-  - open-science
+  - logistics
+  - crisis-detection
+  - silk-route
+  - weak-signals
 license: CC0-1.0
 date-released: "2026-03-03"
 version: "1.0.0"
-# doi: "10.5281/zenodo.TODO"
