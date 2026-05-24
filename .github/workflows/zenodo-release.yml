@@ -31,15 +31,16 @@ jobs:
         run: |
           set -euo pipefail
           REPO_URL="https://github.com/${{ github.repository }}"
-          echo "Searching Zenodo for: $REPO_URL"
+          echo "Searching Zenodo for repository base: $REPO_URL"
 
           for attempt in 1 2 3 4 5; do
             echo "Attempt $attempt..."
-            RESPONSE=$(curl -fsSL "https://zenodo.org/api/records?q=related_identifier:$REPO_URL&sort=mostrecent&size=1" || echo "")
-            DOI=$(printf "%s" "$RESPONSE" | python3 - <<'PY'
+            RESPONSE=$(curl -fsSL "https://zenodo.org/api/records?q=$REPO_URL&sort=mostrecent&size=25" || echo "")
+            DOI=$(printf "%s" "$RESPONSE" | python3 - <<'PY' "$REPO_URL"
 import json
 import sys
 
+repo_url = sys.argv[1]
 payload = sys.stdin.read().strip()
 if not payload:
     raise SystemExit(0)
@@ -50,10 +51,15 @@ except Exception:
     raise SystemExit(0)
 
 hits = data.get("hits", {}).get("hits", [])
-if hits:
-    doi = hits[0].get("doi") or hits[0].get("metadata", {}).get("doi", "")
-    if doi:
-        print(doi)
+for hit in hits:
+    related = hit.get("metadata", {}).get("related_identifiers", []) or []
+    for item in related:
+        identifier = item.get("identifier", "") or ""
+        if identifier.startswith(repo_url):
+            doi = hit.get("doi") or hit.get("metadata", {}).get("doi", "")
+            if doi:
+                print(doi)
+                raise SystemExit(0)
 PY
 )
 
